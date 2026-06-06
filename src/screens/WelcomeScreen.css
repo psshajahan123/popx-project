@@ -1,0 +1,82 @@
+.welcome-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  min-height: 700px;
+  padding: 0 28px 52px;
+}
+
+.welcome-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.welcome-title {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #1a1a2e;
+  line-height: 1.2;
+}
+
+.welcome-subtitle {
+  font-size: 14px;
+  color: #6b7280;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.welcome-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 16px;
+  background: #6c3ce1;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+  letter-spacing: 0.2px;
+}
+
+.btn-primary:hover {
+  background: #5a30c5;
+}
+
+.btn-primary:active {
+  transform: scale(0.98);
+}
+
+.btn-secondary {
+  width: 100%;
+  padding: 16px;
+  background: #e8dffc;
+  color: #6c3ce1;
+  border: none;
+  border-radius: 8px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+  letter-spacing: 0.2px;
+}
+
+.btn-secondary:hover {
+  background: #d8ccf8;
+}
+
+.btn-secondary:active {
+  transform: scale(0.98);
+}

@@ -1,0 +1,43 @@
+.floating-input-wrapper {
+  position: relative;
+  border: 1.5px solid #d1d5db;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 10px 14px 8px;
+  transition: border-color 0.2s ease;
+}
+
+.floating-input-wrapper.focused {
+  border-color: #6c3ce1;
+}
+
+.floating-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  color: #7c5cbf;
+  letter-spacing: 0.3px;
+  margin-bottom: 2px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.req-star {
+  color: #e74c3c;
+  margin-left: 2px;
+}
+
+.floating-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  color: #1a1a2e;
+  padding: 0;
+}
+
+.floating-input::placeholder {
+  color: #9ca3af;
+  font-size: 14px;
+}

@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --purple: #6c3ce1;
+  --purple-light: #c9b8f4;
+  --purple-bg: #f7f5ff;
+  --text-dark: #1a1a2e;
+  --text-muted: #6b7280;
+  --border: #e5e7eb;
+  --white: #ffffff;
+  --input-border: #d1d5db;
+  --label-purple: #7c5cbf;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: #1a1a2e;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
